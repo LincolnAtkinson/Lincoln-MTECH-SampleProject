@@ -3,19 +3,26 @@ html, body, div, h1, p {
     padding: 0px;
     border: 0px;
 }
-.title {
+#title {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(113, 113, 199);
+}
+h1 {
+    color: black;
+    font-size: 55px;
+}
+a {
+    padding-right: 15px;
+    font-size: medium;
+    text-decoration: none;
+}
+#nav {
     height: 30px;
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: darkblue;
-}
-h1 {
-    color: black;
-}
-.nav {
-    height: 15px;
-    width: 100%;
-    display: flex;
-    justify-content: right;
+    background-color: rgb(113, 113, 199);
 }
